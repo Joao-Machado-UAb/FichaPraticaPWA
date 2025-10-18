@@ -16,3 +16,10 @@ As vantagens de usar branches são:
 trabalhar em funcionalidades diferentes em paralelo, isolar alterações sem afetar o código principal,
 facilitar revisão de código antes de juntar, permitir correção de erros sem interromper desenvolvimento
 e organizar e controlar versões do projeto.
+
+Resposta à questão 3:
+Conflitos ocorrem quando as mesmas linhas de código foram alteradas de formas diferentes em dois
+branches que tentamos juntar. Para resolver, o Git marca as linhas conflituosas no ficheiro,
+escolhe manualmente qual versão manter (a do branch atual ou a do stash), remove os marcadores de conflito´
+e faz um novo commit para finalizar a combinação. O ficheiro mostra claramente onde estão os conflitos,
+permitindo decidir que código manter.
