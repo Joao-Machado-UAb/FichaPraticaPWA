@@ -23,3 +23,11 @@ branches que tentamos juntar. Para resolver, o Git marca as linhas conflituosas 
 escolhe manualmente qual versão manter (a do branch atual ou a do stash), remove os marcadores de conflito´
 e faz um novo commit para finalizar a combinação. O ficheiro mostra claramente onde estão os conflitos,
 permitindo decidir que código manter.
+
+Resposta à questão 4:
+Clone cria uma cópia local do repositório no computador e mantém ligação ao repositório original,
+enquanto o fork cria uma cópia independente do repositório na minha conta (geralmente em plataformas como GitHub)
+ficando completamente separado do original. 
+
+A diferença principal é que clone é local enquanto fork é remoto e independente.
+
