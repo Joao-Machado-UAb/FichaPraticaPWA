@@ -5,3 +5,8 @@ que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
 
+Resposta à questão 1:
+
+Commit: Gravar as alterações no repositório com uma mensagem descritiva.
+Push: Enviar os commits locais para o repositório remoto (servidor).
+Pop: Repor alterações guardadas temporariamente
