@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas sobre Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .pergunta {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .pergunta h2 {
+            color: #2980b9;
+            margin-top: 0;
+        }
+        
+        .resposta {
+            margin-top: 15px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 4px;
+        }
+        
+        .resposta h3 {
+            color: #27ae60;
+            margin-top: 0;
+        }
+        
+        .resposta p {
+            margin: 10px 0;
+        }
+        
+        .resposta ul, .resposta ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        
+        .resposta li {
+            margin: 8px 0;
+        }
+        
+        b {
+            color: #c0392b;
+        }
+        
+        i {
+            color: #8e44ad;
+        }
+        
+        u {
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Perguntas e Respostas sobre Git</h1>
+        
+        <!-- Pergunta 1 -->
+        <div class="pergunta">
+            <h2>1 - O que são operações de "Commit", "Push" e "Pop" efetuadas num repositório?</h2>
+            <div class="resposta">
+                <h3>Resposta à questão 1:</h3>
+                <ul>
+                    <li><b>Commit</b>: Gravar as alterações no repositório com uma mensagem descritiva.</li>
+                    <li><b>Push</b>: Enviar os commits locais para o repositório remoto (servidor).</li>
+                    <li><b>Pop</b>: Repor alterações guardadas temporariamente.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Pergunta 2 -->
+        <div class="pergunta">
+            <h2>2 – Quais são as vantagens de usar Branchs num repositório git?</h2>
+            <div class="resposta">
+                <h3>Resposta à questão 2:</h3>
+                <p>As vantagens de usar branches são:</p>
+                <ul>
+                    <li>Trabalhar em funcionalidades diferentes em paralelo</li>
+                    <li>Isolar alterações sem afetar o código principal</li>
+                    <li>Facilitar revisão de código antes de juntar</li>
+                    <li>Permitir correção de erros sem interromper desenvolvimento</li>
+                    <li>Organizar e controlar versões do projeto</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Pergunta 3 -->
+        <div class="pergunta">
+            <h2>3 – Nos Merges de conteúdos resultantes de um "Pop" podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</h2>
+            <div class="resposta">
+                <h3>Resposta à questão 3:</h3>
+                <p>Conflitos ocorrem quando as mesmas linhas de código foram alteradas de formas diferentes em dois branches que tentamos juntar. Para resolver, o Git marca as linhas conflituosas no ficheiro, escolhe manualmente qual versão manter (a do <i>branch</i> atual ou a do <i>stash</i>), remove os marcadores de conflito e faz um novo <b>commit</b> para finalizar a combinação. O ficheiro mostra claramente onde estão os conflitos, permitindo decidir que código manter.</p>
+            </div>
+        </div>
+        
+        <!-- Pergunta 4 -->
+        <div class="pergunta">
+            <h2>4 – "Clone" e "Fork" são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</h2>
+            <div class="resposta">
+                <h3>Resposta à questão 4:</h3>
+                <p><u>Clone</u> cria uma cópia local do repositório no computador e mantém ligação ao repositório original, enquanto o <u>fork</u> cria uma cópia independente do repositório na minha conta (geralmente em plataformas como GitHub) ficando completamente separado do original.</p>
+                <p>A diferença principal é que <b>clone é local</b> enquanto <b>fork é remoto e independente</b>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
