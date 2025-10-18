@@ -10,3 +10,9 @@ Resposta à questão 1:
 Commit: Gravar as alterações no repositório com uma mensagem descritiva.
 Push: Enviar os commits locais para o repositório remoto (servidor).
 Pop: Repor alterações guardadas temporariamente
+
+Resposta à questão 2:
+As vantagens de usar branches são: 
+trabalhar em funcionalidades diferentes em paralelo, isolar alterações sem afetar o código principal,
+facilitar revisão de código antes de juntar, permitir correção de erros sem interromper desenvolvimento
+e organizar e controlar versões do projeto.
